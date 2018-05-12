@@ -36,6 +36,7 @@ def bisection(function,lower_limit,upper_limit,eps=1E-5):
 				f_a=f_m
 	root=m; iterations=i
 	return root,iterations
+## Following is the test part
 if __name__=="__main__":
 	print """---Newton_raphson method---"""
 	g=raw_input("Enter function=")
