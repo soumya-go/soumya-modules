@@ -10,7 +10,7 @@ def Newton_raphson(main_func,diff_func,initial_x,eps=1E-6):
 		c+=1
 	iterations=c; root=x0
 	return root,iterations
-def bisection(function,lower_limit,upper_limit,eps=1E-5):
+def bisection(function,lower_limit,upper_limit,eps=1E-6):
 	g=function; a=lower_limit; b=upper_limit
 	print "epsilon 1E-5"
 	chn=raw_input("do you want to change(y/n)?")
